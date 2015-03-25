@@ -16,6 +16,10 @@ app.config(function($routeProvider){
             controller: 'ChartsCtrl',
             templateUrl: '/templates/charts.html'
         })
+        .when('/buttons', {        
+            controller: 'ButtonsCtrl',
+            templateUrl: '/templates/buttons.html'
+        })
         .otherwise({
             redirectTo: '/'
         }) ;
